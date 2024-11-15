@@ -8,10 +8,9 @@ export default async function Command({
     password: string;
   };
 }>) {
-  const hashedPassword = hash(password);
-  await Clipboard.copy(hashedPassword);
+  await Clipboard.copy(hash(password));
 
-  await showHUD(`Password copied to clipboard: ${hashedPassword}`, {
+  await showHUD(`Hashed password copied to clipboard!`, {
     clearRootSearch: true,
   });
 }

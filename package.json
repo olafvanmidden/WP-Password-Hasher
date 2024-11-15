@@ -4,7 +4,7 @@
   "title": "WP Password Hasher",
   "description": "Hashes the input to a WP hash",
   "icon": "extension-icon.png",
-  "author": "olafdedj",
+  "author": "olafvanmidden",
   "categories": [
     "Developer Tools",
     "Productivity",
@@ -13,8 +13,8 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "wp-password-hasher",
-      "title": "WP Password Hasher",
+      "name": "hash-password",
+      "title": "Hash Password",
       "description": "Hashes the input to a WP hash",
       "mode": "no-view",
       "arguments": [
